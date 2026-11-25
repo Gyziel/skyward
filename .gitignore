@@ -1,0 +1,16 @@
+# 固件与大文件（不进仓库，编译时按链接下载）
+*.zip
+*.tgz
+*.img
+work-*/
+android-ndk*/
+android-ndk-r27c-linux.zip
+skyward-src/target/
+skyward-src/target/system-init/
+
+# 构建产物（成品单独发 release，不进仓库）
+skyward-pandora-*.img
+
+# 系统文件
+.DS_Store
+Thumbs.db
